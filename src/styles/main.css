@@ -1,0 +1,36 @@
+/* CSS Variables */
+:root {
+    --primary-color: #F4CE14;
+    --secondary-color: #495E57;
+    --accent-color: #EE9972;
+    --light-color: #FBDABB;
+    --dark-color: #333333;
+    --light-bg: #EDEFEE;
+    --dark-bg: #2F4F4F;
+    --spacing: 8px;
+    --border-radius: 16px;
+    --transition: all 0.3s ease;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;s
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Save the file in Notepad (Ctrl + S) */
